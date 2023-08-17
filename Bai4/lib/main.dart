@@ -1,22 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:quiz_app/screens/welcome/welcome_screen.dart';
+import 'package:shop_app/routes.dart';
+import 'package:shop_app/screens/profile/profile_screen.dart';
+import 'package:shop_app/screens/splash/splash_screen.dart';
+import 'package:shop_app/theme.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Quiz App',
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: const WelcomeScreen(),
+      title: 'Flutter Demo',
+      theme: theme(),
+      // home: SplashScreen(),
+      // We use routeName so that we dont need to remember the name
+      initialRoute: SplashScreen.routeName,
+      routes: routes,
     );
   }
 }

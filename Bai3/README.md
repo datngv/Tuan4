@@ -1,21 +1,16 @@
-# eBook App - Flutter UI
+# google_mao
 
-## [Watch it on YouTube](https://youtu.be/ACdraZRANaU)
+A new Flutter project.
 
-<!-- **Packages we are using:**
+## Getting Started
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg) -->
+This project is a starting point for a Flutter application.
 
-<!-- **Fonts**
+A few resources to get you started if this is your first Flutter project:
 
-- Poppins [link](https://fonts.google.com/specimen/Poppins) -->
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-**UI Credit**
-
-- Design by: Peeely [link](https://www.uplabs.com/posts/free-book-reading-app)
-
-Flamingo is an eBook (reading book) app design by flutter, at home page it shows you some recommended books, also the book of the day. At the bottom you gonna find your most recent book that you read. On details page book info with it's chapters. note that this is UI only.
-
-### eBook App Final UI
-
-![App UI](/attachment.png)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
